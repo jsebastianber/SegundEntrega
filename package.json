@@ -1,0 +1,25 @@
+{
+  "name": "segunda",
+  "version": "1.0.2",
+  "description": "Segunda entrega",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sebastian",
+  "license": "ISC",
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "bootstrap": "^4.3.1",
+    "express": "^4.17.1",
+    "hbs": "^4.0.4",
+    "jquery": "^3.4.1",
+    "path": "^0.12.7",
+    "popper.js": "^1.15.0",
+    "yargs": "^13.2.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jsebastianber"
+  }
+}

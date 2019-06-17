@@ -1,0 +1,46 @@
+{{>header}}
+
+<div class="container">
+
+    <form action="./registrarCurso" method="POST">
+        <h2>Registro de cursos</h2>
+
+        <div class="form-group">
+            <label>Id</label>
+            <input type="text" class="form-control" name="id" placeholder="id curso" required>
+        </div>
+
+        <div class="form-group">
+            <label>Nombre completo</label>
+            <input type="text" class="form-control" name="nombre" placeholder="nombre completo" required>
+        </div>
+
+        <div class="form-group">
+            <label>Descripción</label>
+            <input type="text" class="form-control" name="descripcion" placeholder="descripción" required>
+        </div>
+
+        <div class="form-group">
+            <label>Valor</label>
+            <input type="number" class="form-control" name="valor" placeholder="valor" required>
+        </div>
+
+        <div class="form-group">
+            <label>Modalidad</label>
+            <select class="form-control" name="modalidad">
+                <option>Virtual</option>
+                <option>Presencial</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label>Intensidad Horaria</label>
+            <input type="number" class="form-control" name="intensidad" placeholder="valor">
+        </div>
+
+        <button class="btn btn-primary">Registrar</button>
+
+    </form>
+</div>
+
+{{>footer}}
